@@ -1,0 +1,59 @@
+disp(sprintf('2 decimals: %0.2f',a)) % 2 decimas de 6
+v = 1:6 % 1 2 3 4 5 6
+c = ones(2,3)
+w = rand(1,3) %matriz rand 
+sqrt(10)
+hist(w)% histograma
+eye(4) %identidad
+size(A)% tamaño
+size(A,1)% filas size(A,2) %columnas
+load('features.dat')
+who %variables in the current slope
+save hello.txt v -ascii %salvar la variable v
+A(3,2) elemento fila 3 col 2
+A(:,2)
+A([1 3], :)
+[column vector , A]  % poner una columna adicional
+A(:) % volver A un vector 
+c = [a b] % concatenar arrays hstack
+c = [a ; b] %vstack
+A*B Multiplicacion
+A.*B  elemento a elemento
+exp(v) log(v) abs(v) A' sum(a)
+find(a<3) floor(a) ceil(a) max(A)
+max(A,[],1) maximo de cada columna
+max(A,[],2) fila
+
+Plot!
+plot(x,y)
+hold on; %mas de una? 
+xlabel('time')
+ylabel('value')
+legend('sin','cos')
+figure(1), plot...
+colorbar, colormap gray;
+
+Flujo 
+
+for i = 1:10,
+	v(i) = i;
+end;
+
+while true,
+	break;
+end;
+
+
+Funciones
+
+Tienen extensión .m
+
+function y = squeatrksksk(param)
+debe estar en el directorio para poder ser usada la funcion
+
+Vectorizacion
+Algebra lineal ..wii
+
+en vezde hacer dos for mejor usar implementaciones de algebra lineal y directamente hacer productis
+
+
